@@ -1,0 +1,6 @@
+.env
+.env.*
+!.env.example
+
+# Keep local data outside the repository.
+/work/

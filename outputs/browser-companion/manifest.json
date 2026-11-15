@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "Maestro Web Trail (Local)",
+  "version": "1.0.0",
+  "description": "Optional, local-only browser visit history for your Maestro Digital Twin.",
+  "permissions": ["storage"],
+  "optional_permissions": ["history"],
+  "background": { "service_worker": "worker.js" },
+  "action": { "default_title": "Maestro Web Trail", "default_popup": "popup.html" }
+}

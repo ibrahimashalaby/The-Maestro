@@ -1,0 +1,10 @@
+.env
+.env.*
+.git
+.gitignore
+.dockerignore
+work
+outputs/browser-companion
+outputs/README.md
+outputs/start-maestro.cmd
+outputs/start-maestro.ps1
